@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html>
 <head>
- <title>assignment</title>
+<script src="script.js"></script> 
 </head>
-<body>
- 
- <div id="all">
- 
- <font id="font" style="size: 5;"><p>content</p ></font>
- <button onclick="document.getElementById('font').style.fontSize = '50px'">Size Change</button><br>
-
- <button onclick="document.getElementById('kid').src='https://th.bing.com/th/id/R.2520b2166359b22d2af7afc241622a2d?rik=%2bWD2ImUUqpVjYg&pid=ImgRaw&r=0'">Boy</button>
- <img id='kid' src="https://img.xcitefun.net/users/2009/01/22920,xcitefun-8033253lgal2.jpg">
- <button onclick="document.getElementById('kid').src='https://img.xcitefun.net/users/2009/01/22920,xcitefun-8033253lgal2.jpg'">Girl</button>
- <br>
-
- <button onclick="document.getElementById('kid').style.display = 'none'">disappear</button><br>
-
- <font id="inner" style="size: 5;"><p>origin</p ></font>
- <button onclick="document.getElementById('inner').innerHTML = 'changed'">Change inner</button><br>
-
- <img id='img' src="https://www.freepsdbazaar.com/wp-content/uploads/2020/06/sky-replace/sun-rise/sunrise-14-freepsdbazaar.jpg" width="1300" height="auto"><br>
- <button onclick="document.getElementById('img').style.width = '600px'">image shortter</button><br>
-
- <button onclick=" var t = new Date(); alert(t);">show date</button><br>
-
- <button onclick="document.write(10+10)">10+10</button>
-</div>
-
+<body onkeydown="window.alert()">
+<script>
+alert(new Date()); 
+</script>
+<img id="img" src="https://th.bing.com/th/id/R.87abbb7e939aad01a7ce5b8be4dd612d?rik=IIS4mph8LbGBUg&pid=ImgRaw&r=0" width="500px" height="450px" onmouseover="document.getElementById('img').src='https://th.bing.com/th/id/R.45a83d6318d7c4f9a245d636e203583f?rik=1slDc6pUefKpNQ&pid=ImgRaw&r=0'"><hr>
+<p></p >
+<p id="two">This is the first sentence</p >
+<button onclick="document.getElementById('two').innerHTML ='This is the sentence after the change'">Click to change the sentence</button>
+<hr>
+<button onkeydown='ha()'> press any key to show alert</button>
+<hr>
+<p id="demo">Hello</p >
+<button onclick="change()">change</button>
+<hr>
+<p id="question6"></p >
+<button onclick="question6()">click here to show the 20 degrees F to C</button>
+<hr>
+<p id="gan"></p >
+<button onclick="sum1()">Click here to calculate.</button>
+<hr>
+<p id='yu'></p >
+<button onclick="sum2()">Nice to meet you + your first name + your last name</button>
+<hr>
 </body>
-</html> 
+</html>
